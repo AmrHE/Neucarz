@@ -1,0 +1,84 @@
+{
+  "name": "carrentalz",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@apollo/client": "^3.3.19",
+    "@brainhubeu/react-carousel": "^2.0.4",
+    "@craco/craco": "^6.4.2",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.16",
+    "@reduxjs/toolkit": "^1.6.2",
+    "@tailwindcss/postcss7-compat": "^2.2.17",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@types/jest": "^24.9.1",
+    "@types/node": "^12.20.37",
+    "@types/react": "^16.14.21",
+    "@types/react-calendar": "^3.4.3",
+    "@types/react-dom": "^16.9.14",
+    "@types/react-redux": "^7.1.20",
+    "autoprefixer": "^9.8.8",
+    "express": "^4.17.1",
+    "graphql": "^15.5.0",
+    "postcss": "^7.0.39",
+    "react": "^17.0.2",
+    "react-burger-menu": "^3.0.6",
+    "react-calendar": "^3.5.0",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-redux": "^7.2.6",
+    "react-responsive": "^9.0.0-beta.5",
+    "react-scripts": "4.0.3",
+    "react-spinners": "^0.11.0",
+    "redux-logger": "^3.0.6",
+    "reselect": "^4.1.5",
+    "styled-components": "^5.3.3",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17",
+    "twin.macro": "^2.8.1",
+    "typescript": "^4.1.6"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject",
+    "schema:download": "npx apollo service:download --endpoint=http://localhost:9000/graphql ./src/app/graphql-schema.json",
+    "schema:generate-watch": "npx apollo codegen:generate --localSchemaFile=./src/app/graphql-schema.json --target=typescript --tagName=gql --watch",
+    "start:prod": "node ./server.js"
+  },
+  "babelMacros": {
+    "twin": {
+      "config": "./tailwind.config.js",
+      "preset": "styled-components"
+    }
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/brainhubeu__react-carousel": "^2.0.4",
+    "@types/redux-logger": "^3.0.9",
+    "@types/styled-components": "^5.1.16",
+    "@typescript-eslint/eslint-plugin": "^4.15.1",
+    "@typescript-eslint/parser": "^4.15.1",
+    "eslint": "^7.20.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "2.2.1"
+  }
+}
