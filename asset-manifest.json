@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Neucarz/static/css/main.40f80706.chunk.css",
+    "main.js": "/Neucarz/static/js/main.47e8ec6b.chunk.js",
+    "main.js.map": "/Neucarz/static/js/main.47e8ec6b.chunk.js.map",
+    "runtime-main.js": "/Neucarz/static/js/runtime-main.be2d0bd7.js",
+    "runtime-main.js.map": "/Neucarz/static/js/runtime-main.be2d0bd7.js.map",
+    "static/css/2.926d937b.chunk.css": "/Neucarz/static/css/2.926d937b.chunk.css",
+    "static/js/2.3579ab59.chunk.js": "/Neucarz/static/js/2.3579ab59.chunk.js",
+    "static/js/2.3579ab59.chunk.js.map": "/Neucarz/static/js/2.3579ab59.chunk.js.map",
+    "index.html": "/Neucarz/index.html",
+    "static/css/2.926d937b.chunk.css.map": "/Neucarz/static/css/2.926d937b.chunk.css.map",
+    "static/css/main.40f80706.chunk.css.map": "/Neucarz/static/css/main.40f80706.chunk.css.map",
+    "static/js/2.3579ab59.chunk.js.LICENSE.txt": "/Neucarz/static/js/2.3579ab59.chunk.js.LICENSE.txt",
+    "static/media/blob.f2195ec6.svg": "/Neucarz/static/media/blob.f2195ec6.svg",
+    "static/media/jeep.18461d13.png": "/Neucarz/static/media/jeep.18461d13.png",
+    "static/media/mclaren-orange-big.46e3c615.png": "/Neucarz/static/media/mclaren-orange-big.46e3c615.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.be2d0bd7.js",
+    "static/css/2.926d937b.chunk.css",
+    "static/js/2.3579ab59.chunk.js",
+    "static/css/main.40f80706.chunk.css",
+    "static/js/main.47e8ec6b.chunk.js"
+  ]
+}
